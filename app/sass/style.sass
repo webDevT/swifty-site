@@ -1,0 +1,390 @@
+@import "vars"
+@import "fonts"
+
+//start global style
+body 
+	background: #2f3135
+	color: #fff
+	font-family: $main-font
+	font-weight: 400
+.container-fluid 
+	width: 1238px 
+	max-width: 95vw 
+	padding-left: 0 
+	padding-right: 0
+ul 
+	list-style: none
+	padding: 0 
+	margin: 0
+a,
+a:hover 
+	text-decoration: none
+//end global style
+
+//start top header style
+.top-header
+	text-align: center
+	background: linear-gradient(to right, #ff3364, #ba35ff, #3586ff)
+	font-size: 16px
+	font-weight: 500
+	padding: 6.5px 0
+//end top header style
+
+//start header style
+.header 
+	padding: 20px 0
+	.container-fluid 
+		display: flex 
+		justify-content: space-between
+		align-items: center
+.logo 
+	width: 154px 
+	img 
+		width: 100%
+.menu 
+	ul 
+		display: flex
+.menu__link 
+	color: #fff
+	margin-left: 64px
+	display: block
+	font-size: 18px 
+	font-weight: 700
+.menu__link:hover,
+.menu__link.active
+	color: $primary-color
+//end header style
+
+//start baner style
+.section 
+	margin-bottom: 45px
+.baner
+	width: 100%
+	border-radius: 45px 
+	width: 100%
+	min-height: 650px
+	box-shadow: 0px 0px 25px #000
+.baner--main
+	background: url('../img/img1.png')
+	background-size: 100%
+	background-repeat: no-repeat
+	text-align: center 
+	padding: 40px 15px
+.main-screen__title
+	font-size: 40px 
+	font-weight: 800
+.main-screen__text
+	font-size: 20px
+	width: 477px 
+	max-width: 100%
+	margin: 0 auto
+	line-height: 1.2
+	margin-top: 5px
+.baner--who-we-are
+	background: url('../img/img2.png')
+	background-size: 100%
+	background-repeat: no-repeat
+.baner--news
+	background: url('../img/img3.png')
+	background-size: 100%
+	background-repeat: no-repeat
+.section__highlights
+	background: url('../img/img4.png')
+	background-size: 100%
+	background-repeat: no-repeat
+.baner--follow-us
+	background: url('../img/img5.png')
+	background-size: 100%
+	background-repeat: no-repeat
+	min-height: 368px
+.wrapper
+	width: 88%
+	margin: 0 auto
+	padding: 30px 0
+.section__title
+	text-align: right
+	width: 645px 
+	max-width: 100%
+	font-size: 166px 
+	font-weight: 700
+	font-family: $primary-font
+	line-height: 0.7222
+	color: rgb(0, 0, 0)
+	background: linear-gradient(-45deg, #0d0e13 33%, #1a1b20 66%, #292a2f)
+	-webkit-background-clip: text
+	-webkit-text-fill-color: transparent
+	.we 
+		font-size: 130px
+.are 
+	transform: translateX(-20px)
+	padding-right: 70px
+.who-we-are__content
+	width: 470px 
+	max-width: 100%
+	padding-top: 25px
+	p 
+		font-size: 20px
+	.button
+		margin-top: 30px
+		width: 192px
+.button 
+	background: $primary-color
+	color: #fff 
+	font-size: 20px 
+	font-weight: 500
+	display: flex 
+	justify-content: center 
+	align-items: center
+	height: 40px
+	border-radius: 10px
+	box-shadow: 0px 10px 10px #000
+.button:hover 
+	color: #fff
+.latest
+	padding-right: 225px
+.section__title--news
+	font-size: 130px
+//end baner style 
+.news-row
+	display: flex 
+	justify-content: space-between
+	padding-top: 30px
+.news-col 
+	width: 45.631%
+	color: #fff
+	p 
+		margin-bottom: 0 
+		font-size: 24px
+		line-height: 1.1
+	img 
+		width: 100%
+.news-date
+	font-size: 20px
+	margin-top: 15px
+.news-col:hover 
+	color: #fff
+.statistic
+	background: url('../img/statistic.png')
+	background-repeat: no-repeat 
+	background-position: top left
+	background-size: 32.986vw
+	z-index: 99 
+	position: relative
+	margin-top: -50px
+	padding-top: 100px
+	text-align: right
+
+	.section__title
+		width: auto
+		line-height: 1
+		display: inline-block
+.section.no-margin 
+	margin-bottom: 0
+.statistic__item
+	width: 413px 
+	height: 440px
+	background: url('../img/statistic-item.png')
+	margin-left: 70px
+	border-radius: 50px
+	box-shadow: 0px 0px 25px #000
+	text-align: center
+	padding-top: 60px
+	overflow: hidden
+	background-position: bottom center
+	background-size: 105%
+.statistic__items
+	display: flex
+	justify-content: flex-end
+	width: 100%
+	margin-top: 30px
+.statistic__item-title
+	color: $primary-color
+	font-size: 39px
+	font-weight: 800
+	text-shadow: 0px 4px 6.93px rgba(0, 0, 0, 0.91)
+	margin-bottom: 70px
+	span 
+		font-size: 64px 
+.statistic__item__text
+	font-size: 35px
+	font-weight: 800
+	text-shadow: 0px 4px 6.93px rgba(0, 0, 0, 0.91)
+
+.section__highlights
+	.section__title
+		width: auto
+		line-height: 1.3
+		display: inline-block
+		text-align: right
+	.wrapper
+		padding-top: 0
+.section__header
+	display: flex
+	justify-content: flex-end
+	width: 100%
+.highlights__img
+	max-width: 100%
+	margin-top: -130px
+	display: block
+.highlights__col
+	width: 220px
+	p 
+		font-family: $primary-font
+		font-weight: 300 
+		font-size: 16px
+
+.highlights__col:last-child 
+	margin-right: 0
+.highlights__col:nth-child(odd)
+	margin-top: -100px
+.highlights__title
+	font-size: 26px 
+	font-weight: 700
+	font-family: $primary-font
+	border-bottom: 5px solid #db3663
+	display: inline-block
+	padding: 0 1px
+	margin-bottom: 3px
+.highlights__row
+	display: flex
+	justify-content: space-between
+	margin-top: -100px
+.highlights__title--pink
+	border-color: #f739e1
+.highlights__title--purple
+	border-color: #a037f9
+.highlights__title--blue 
+	border-color: #5784fa
+.highlights__footer
+	display: flex
+	justify-content: flex-end
+	.button 
+		width: 240px
+		margin-left: 25px
+.button--pink 
+	background: #f12970
+.section__title-follow
+	text-align: left 
+	font-size: 149px
+	width: auto
+	letter-spacing: 1px
+input 
+	color: #000 !important
+.sib-form
+	padding-top: 0 
+	padding-bottom: 0
+.follow-us__header
+	display: flex 
+	justify-content: space-between
+	align-items: flex-end
+#sib-form
+	display: flex 
+	justify-content: space-between
+	align-items: center
+	width: 650px
+	background: transparent !important
+.sib-form .entry__label
+	height: 0
+	margin-bottom: 0
+#sib-container
+	padding: 0
+.sib-container--large.sib-container--vertical
+	background: transparent !important
+.sib-input.sib-form-block
+	padding-right: 0
+	padding-left: 0
+.input
+	width: 398px 
+	height: 58px !important
+	background: #ebebeb !important
+	font-size: 20px !important
+	outline: none !important
+	font-family: $main-font
+	border-radius: 10px !important
+	padding-left: 30px !important
+.input::placeholder 
+	color: #000 !important
+.entry__field
+	background: transparent !important
+	border: none !important
+	margin-bottom: 0 !important
+	margin-top: 0 !important
+.sib-form-block__button
+	width: 187px 
+	height: 58px
+.entry__error
+	margin-bottom: 0 !important
+	margin-top: 0 !important
+.form-wrapper
+	padding-top: 80px
+	position: relative
+.social
+	display: flex 
+	img 
+		width: 35px
+	a 
+		display: flex 
+		justify-content: center 
+		align-items: center 
+		border-radius: 50%
+		background: #000
+		box-shadow: 0px 0px 10px rgba(#fff, 0.3)
+		width: 58px 
+		height: 58px
+		margin-left: 45px
+.sib-form-message-panel
+	margin-bottom: 5px !important
+	position: absolute 
+	top: 35px
+	left: 0
+.sib-form .entry__error
+	position: absolute 
+	bottom: -25px
+	left: 0
+.input:focus,
+.input:active	
+	border: none !important
+	outline: none !important
+	border-color: transparent !important
+.sib-form-message-panel
+	border: none
+	padding-top: 0 
+	padding-bottom: 0 !important
+.sib-form .entry__error
+	font-size: 13px
+.footer__menu
+	width: 550px 
+	max-width: 90%
+	margin: 0 auto
+	margin-bottom: 50px
+	display: flex 
+	justify-content: space-between 
+	a 
+		color: #fff 
+		font-size: 18px
+	a:hover 
+		color: #fff
+.copy 
+	text-align: center 
+	font-size: 18px 
+	font-family: $primary-font
+	font-weight: 300
+	padding-bottom: 35px
+.section--banner
+	padding-top: 30px
+.baner--main2
+		background: url('../img/img6.png')
+		background-size: 100%
+		background-repeat: no-repeat
+.main-screen__title--blue
+	color: $primary-color 
+	font-family: $primary-font
+.main-screen__text-big
+	font-size: 26px
+	width: auto
+.main-screen__text2 
+	width: auto
+@import "media"
+
+
+
