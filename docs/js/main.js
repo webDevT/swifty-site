@@ -5,4 +5,15 @@ $('.menu__btn').click(function(){
 	$('.menu').toggleClass('active');
 })
 
+//start slider init
+$('.slider').slick({
+  slidesToShow: 1,
+  prevArrow: $('.prev'),
+  nextArrow: $('.next'),
+  autoplay: true,
+  fade: true
+})
+//end slider intit
+
+
 });
