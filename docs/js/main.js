@@ -11,6 +11,7 @@ $('.slider').slick({
   prevArrow: $('.prev'),
   nextArrow: $('.next'),
   autoplay: true,
+  autoplaySpeed: 5000,
   fade: true
 })
 //end slider intit
