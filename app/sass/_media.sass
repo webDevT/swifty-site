@@ -335,15 +335,16 @@
 		.baner
 			height: auto 
 			min-height: 94.667vw
-			background-color: linear-gradient(180deg, #2F3034 0%, #1A1B1F 100%)
 			border-radius: 5.333vw
-			background-image: url('../img/sport.svg')
-			background-position: bottom 1vw center
+			background-image: url('../img/sport.svg'), linear-gradient(180deg, #2F3034 0%, #1A1B1F 100%)
+			background-position: bottom center
 			padding: 6.667vw 0
+			background-repeat: no-repeat
 		.baner--main2
-			background-image: url('../img/baner-mob.png')
+			background-image: url('../img/baner-mob.png'), linear-gradient(180deg, #2F3034 0%, #1A1B1F 100%)
 			background-size: 150%
-			background-position: bottom -3vw left
+			background-position: bottom left
+			background-repeat: no-repeat
 
 	.slider
 		box-shadow: -1.333vw -1.333vw 2.667vw rgba(0, 0, 0, 0.75), 2.667vw 2.667vw 2.667vw rgba(0, 0, 0, 0.75)
@@ -359,6 +360,7 @@
 		box-shadow: -1.333vw -1.333vw 2.667vw rgba(0, 0, 0, 0.75), 2.667vw 2.667vw 2.667vw rgba(0, 0, 0, 0.75)
 		border-radius: 5.333vw
 		padding: 8vw
+		background: linear-gradient(180deg, #2F3034 0%, #1A1B1F 100%)
 		.wrapper 
 			width: 100%
 			padding: 0 0
@@ -557,6 +559,13 @@
 		flex-wrap: 400
 	.footer__menu
 		margin-top: 13.333vw
+	body 
+		background-image: url('../img/bg.svg')
+		//background-pisition: top 81.600vw right
+		background-repeat: no-repeat
+		background-position: top 81.600vw right
+	
+
 
 
 
