@@ -475,6 +475,267 @@ input
 	display: none
 .subscribe-text
 	display: none
+.section--projects
+	.baner 
+		background: url('../img/projects-bg.png')
+		background-repeat: no-repeat 
+		background-position: right bottom
+		min-height: 644px
+		position: relative
+		z-index: 1
+	.section__title 
+		line-height: 1.2
+		padding-right: 40px
+	.section-sub-title
+		margin-top: 20px
+		margin-bottom: 20px
+	p 
+		font-size: 16px 
+		width: 440px 
+		max-width: 100% 
+		text-align: justify
+.section-sub-title
+	font-size: 40px
+	font-weight: 800
+.section--projects
+	position: relative
+.projects-element
+	position: absolute
+	right: 0 
+	top: 6.9vw
+	width: 47vw
+	z-index: -1
+
+.features
+	background-image: none
+.feature__items
+	width: 1030px 
+	max-width: 100% 
+	margin: 0 auto
+
+.features__item-content
+	font-size: 40px
+	font-weight: 800 
+	line-height: 1.2
+	width: 100% 
+	height: 330px
+	box-shadow: 0px 0px 10px $primary-color
+	border-radius: 54px
+	padding: 45px 30px
+	display: flex
+	align-items: flex-end 
+	justify-content: center
+	background: url('../img/f1.png')
+	background-size: cover 
+	background-repeat: no-repeat
+	background-position: center
+.features .col-md-4:nth-child(2) .features__item-content
+	background: url('../img/f2.png')
+	background-size: cover 
+	background-repeat: no-repeat
+	background-position: center
+.features .col-md-4:nth-child(3) .features__item-content
+	background: url('../img/f3.png')
+	background-size: cover 
+	background-repeat: no-repeat
+	background-position: center
+.features__item
+	text-align: center
+	margin-top: 20px
+	p 
+		font-size: 16px
+		font-weight: 400
+		width: 300px 
+		max-width: 100%
+		margin: 0 auto
+		margin-top: 25px
+
+//start prediction style
+.prediction 
+	min-height: 1100px 
+	position: relative
+	padding-top: 340px
+
+	.container-fluid 
+		width: 1030px
+.man 
+	position: absolute
+	top: -40px
+	left: 0
+.woman 
+	position: absolute 
+	top: -120px
+	right: 0
+.predictions__content
+	width: 768px 
+	max-width: 100% 
+	height: 673px
+	box-shadow: 0px 0px 25px #000
+	border-radius: 45px
+	background: url('../img/prediction.png')
+	background-size: cover 
+	background-repeat: no-repeat
+	position: relative
+	z-index: 1
+	padding: 30px 60px
+.predictions__title
+	font-size: 70px 
+	font-weight: 800
+	text-shadow: 0px 4px 8.55px rgba(0, 0, 0, 1)
+//end prediction style
+
+//start media style
+.section--media
+	.section__title 
+		line-height: 1
+.media-tab__item
+	display: none 
+.media-tab__item:first-child 
+	display: block
+.media-tab__item.active
+	display: block
+.media-tab
+	width: 407px 
+	max-width: 45%
+	margin-right: 50px
+	cursor: pointer
+	p 
+		margin-top: 15px 
+		font-size: 16px
+	img 
+		width: 100%
+		
+.media__tabs
+	display: flex
+.media-tab__img 
+	position: relative
+	border-radius: 35px
+	overflow: hidden
+
+
+.media-tab.active 
+	.media-tab__img 
+		border: 2px solid #fff
+		box-shadow: 0px 0px 5px rgba(#fff, 0.5)
+
+.media-tab
+	.media-tab__img:before 
+		content: ''
+		width: 100%
+		height: 100%
+		background: rgba(#000, 0.5)
+		position: absolute 
+		top: 0 
+		left: 0
+.media-tab.active
+	.media-tab__img:before 
+		display: none
+.media__tabs
+	margin-top: 50px
+.media-tab__item
+	margin-top: 50px
+
+	iframe 
+		width: 100%
+		height: 560px
+		box-shadow: 0px 0px 25px #000
+.section--media
+	.baner 
+		background-image: linear-gradient( 154deg, rgb(47,48,53) 41%, rgb(13,14,19) 100%)
+//end media style
+
+
+.press-releases
+	padding: 90px 0
+	p 
+		text-align: justify
+		margin-bottom: 20px
+	.section__title
+		width: 100%
+		text-align: left
+		margin-bottom: 60px
+.press-releases__img
+	width: 100%
+.press-releases__title
+	font-size: 20px 
+	font-weight: 800
+	margin-top: 60px 
+	margin-bottom: 30px
+.press-releases__date
+	font-size: 16px 
+	font-weight: 800
+	margin-bottom: 55px
+.articles
+	padding-bottom: 130px
+	.section__title
+		width: 100% 
+		text-align: left
+		line-height: 1
+.article__item-img
+	width: 100%
+	position: relative
+	margin-bottom: 25px
+	
+	img 
+		width: 100%
+.articles-row
+	padding: 60px 0
+.article__item-img:before 
+	content: ''
+	position: absolute
+	bottom: 1px 
+	left: 1px 
+	height: 3px
+	width: 100%
+	background: linear-gradient(to right, #ff3364, #ba35ff, #3586ff)
+.article__item
+	font-size: 16px
+	color: #fff
+
+.article__item:hover 
+	color: $primary-color
+.article__date	
+	font-weight: 800
+	padding-bottom: 25px
+	display: block
+.load-more
+	width: 193px
+	margin: 0 auto
+.what-mews
+	.wrapper 
+		display: flex 
+		flex-direction: column 
+		align-items: flex-end
+	.baner 
+		height: auto 
+		min-height: auto
+		background: linear-gradient( 154deg, rgb(47,48,53) 41%, rgb(13,14,19) 100%) 
+	.section__title 
+		width: 100% 
+		text-align: right
+		margin-top: 5px
+		margin-bottom: 75px
+		span 
+			font-size: 130px
+.what-mews__content
+	width: 522px 
+	max-width: 100%
+	font-size: 16px
+	position: relative 
+	z-index: 1
+.whats-news-title
+	font-size: 30px
+	font-weight: 800
+	margin-bottom: 30px
+.what-mews
+	margin-bottom: 100px
+	.baner 
+		position: relative
+.whats-news__img
+	position: absolute 
+	bottom: 0 
+	left: 0
+
 @import "media"
 
 

@@ -16,5 +16,10 @@ $('.slider').slick({
 })
 //end slider intit
 
+  $(".media-tab").click(function() {
+  $(".media-tab").removeClass("active").eq($(this).index()).addClass("active");
+  $(".media-tab__content .media-tab__item").hide().eq($(this).index()).fadeIn()
+}).eq(0).addClass("active");
+  
 
 });
